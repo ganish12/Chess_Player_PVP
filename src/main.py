@@ -34,7 +34,7 @@ class Main:
         screen = self.screen
         while True:
             game.show_background(screen)
-
+            #game.show_pieces(screen)
             #quitting game
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
